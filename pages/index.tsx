@@ -222,7 +222,7 @@ const Home: NextPage = () => {
            <nav>
             <ul>
            <li><a href="https://twitter.com/notpepeNFT">Twitter</a></li>
-           <li><a href="#">Contract</a></li>
+           <li><a href="https://etherscan.io/address/0x0eeB199a7496e82137977f9c850143c32135d26B">Contract</a></li>
            <li><a href="#">Looksrare</a></li>
            <li><a href="#">Opensea</a></li>
            </ul>
@@ -275,7 +275,7 @@ const Home: NextPage = () => {
                 </div>
               ) : !activeClaimCondition.data && claimConditions.data ? (
                 <div>
-                  <h2>Drop starts in:</h2>
+                  <h2>$Pepe holders only mint starts in:</h2>
                   <Timer date={claimConditions.data[0].startTime} />
                 </div>
               ) : (
