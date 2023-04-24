@@ -275,7 +275,7 @@ const Home: NextPage = () => {
                 </div>
               ) : !activeClaimCondition.data && claimConditions.data ? (
                 <div>
-                  <h2>$pepe holders only mint starts in:</h2>
+                  <h2>Holders of $pepe have a Reserved mint window of 24hours</h2>
                   <Timer date={claimConditions.data[0].startTime} />
                 </div>
               ) : (
