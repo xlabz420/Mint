@@ -1,5 +1,4 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 /* Change the values in here to match your branding */
 :root {
@@ -16,7 +15,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: 'Fredoka One', cursive;
+  --font: "Comic Sans MS", cursive;
 
   /* Color of the border around items */
   --border-color: rgba(119, 247, 147, 0.796);
@@ -31,8 +30,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  font-family: var(--font);
-  color: var(--text-color);
+  font-family: "Comic Sans MS", cursive;
+  color: var(--white);
   display: flex;
   margin: 0;
   text-align: center;
@@ -46,9 +45,10 @@ body {
 }
 .button-container {
   display: flex;
-  justify-content: flex-end; /* align buttons to the right */
-  margin-top: 20px; /* add some space between header and buttons */
+  justify-content: flex-end; /* align buttons to the right /
+  margin-top: 20px; / add some space between header and buttons /
 }
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -56,7 +56,27 @@ body {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-left: 10px; /* add some space between buttons */
+  margin-left: 10px; / add some space between buttons */
+}
+
+.button:hover {
+  background-color: #2e6ab1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* align buttons to the right /
+  margin-top: 20px; / add some space between header and buttons /
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #418dff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px; / add some space between buttons */
 }
 
 .button:hover {
@@ -71,6 +91,7 @@ header {
   background-color: var(--border-color);
   color: var(--text-color);
   padding: 10px 20px;
+  font-family: var(--font);
   z-index: 1;
 }
 
@@ -96,24 +117,19 @@ a {
   font-weight: 600;
 }
 
-/* Define default font size and line height */
 body {
-  font-size: 30px;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/* Define font size and line height for mobile devices */
-@media (max-width: 767px) {
-  body {
-    font-size: 12px;
-    line-height: 1.4;
-  }
+main {
+  flex: 1;
 }
 
-/* Define font size and line height for desktop devices */
-@media (min-width: 768px) {
-  body {
-    font-size: 20px;
-    line-height: 1.6;
-  }
+footer {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
