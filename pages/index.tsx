@@ -223,8 +223,8 @@ const Home: NextPage = () => {
             <ul>
            <li><a href="https://twitter.com/notpepeNFT">Twitter</a></li>
            <li><a href="https://etherscan.io/address/0x0eeB199a7496e82137977f9c850143c32135d26B">Contract</a></li>
-           <li><a href="#">Looksrare</a></li>
-           <li><a href="#">Opensea</a></li>
+           <li><a href="https://looksrare.org/collections/0x0eeB199a7496e82137977f9c850143c32135d26B">Looksrare</a></li>
+           <li><a href="https://opensea.io/collection/not-pepe">Opensea</a></li>
            </ul>
            </nav>
             </header>
@@ -275,7 +275,7 @@ const Home: NextPage = () => {
                 </div>
               ) : !activeClaimCondition.data && claimConditions.data ? (
                 <div>
-                  <h2>$Pepe holders only mint starts in:</h2>
+                  <h2>$pepe holders only mint starts in:</h2>
                   <Timer date={claimConditions.data[0].startTime} />
                 </div>
               ) : (
@@ -325,7 +325,7 @@ const Home: NextPage = () => {
                     )}
                   </div>
                 </>
-              )}
+              )} v
             </div>
           </>
         )}
