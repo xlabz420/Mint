@@ -325,7 +325,7 @@ const Home: NextPage = () => {
                     )}
                   </div>
                 </>
-              )} v
+              )} 
             </div>
           </>
         )}
