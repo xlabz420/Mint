@@ -15,7 +15,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: "Comic Sans MS", cursive;
+  --font: "Comic Sans MS", "Comic Neue", cursive;
 
   /* Color of the border around items */
   --border-color: rgba(119, 247, 147, 0.796);
@@ -30,7 +30,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
   color: var(--white);
   display: flex;
   margin: 0;
