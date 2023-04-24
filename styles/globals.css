@@ -15,7 +15,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: "Indie Flower", cursive;
+  --font: 'Fedoka One', cursive;
 
   /* Color of the border around items */
   --border-color: rgba(119, 247, 147, 0.796);
@@ -30,7 +30,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  font-family: "Indie Flower", cursive;
+  font-family: 'Fredoka One', cursive;
   color: var(--white);
   display: flex;
   margin: 0;
