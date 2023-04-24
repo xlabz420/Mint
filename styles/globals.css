@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* Change the values in here to match your branding */
+:root {
+  /* Background color of the page */
+  --background-color: #1c1e21;
+
+  /* Color of the text/words */
+  --text-color: #fff;
+
+  /* Main color of your brand */
+  --color-primary: #f213a4;
+
+  /* Secondary color of your brand */
+  --color-secondary: #418dff;
+
+  /* Which font you want to use */
+  --font: "Comic Sans MS", cursive;
+
+  /* Color of the border around items */
+  --border-color: rgba(119, 247, 147, 0.796);
+}
+
+/* --- Don't need to modify below here --- */
+
+/* Default design values of the entire document */
+body {
+  background-image: url('/PEPE.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: "Comic Sans MS", cursive;
+  color: var(--white);
+  display: flex;
+  margin: 0;
+  text-align: center;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* align buttons to the right /
+  margin-top: 20px; / add some space between header and buttons /
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #418dff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px; / add some space between buttons */
+}
+
+.button:hover {
+  background-color: #2e6ab1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* align buttons to the right /
+  margin-top: 20px; / add some space between header and buttons /
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #418dff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px; / add some space between buttons */
+}
+
+.button:hover {
+  background-color: #2e6ab1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--border-color);
+  color: var(--text-color);
+  padding: 10px 20px;
+  font-family: var(--font);
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 600;
+}

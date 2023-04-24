@@ -55,3 +55,4 @@ const activeChainId = ChainId.Mumbai;
 
 For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
 # Mint
+# Mint
