@@ -105,7 +105,7 @@ body {
 /* Define font size and line height for mobile devices */
 @media (max-width: 767px) {
   body {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.4;
   }
 }
