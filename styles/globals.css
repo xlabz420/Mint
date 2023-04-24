@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 /* Change the values in here to match your branding */
 :root {
@@ -15,7 +16,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: "Comic Sans MS", "Comic Neue", cursive;
+  --font: 'Inter', sans-serif;
 
   /* Color of the border around items */
   --border-color: rgba(119, 247, 147, 0.796);
@@ -30,8 +31,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  font-family: "Comic Sans MS", "Comic Neue", cursive;
-  color: var(--white);
+  font-family: var(--font);
+  color: var(--text-color);
   display: flex;
   margin: 0;
   text-align: center;
@@ -45,10 +46,9 @@ body {
 }
 .button-container {
   display: flex;
-  justify-content: flex-end; /* align buttons to the right /
-  margin-top: 20px; / add some space between header and buttons /
+  justify-content: flex-end; /* align buttons to the right */
+  margin-top: 20px; /* add some space between header and buttons */
 }
-
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -56,27 +56,7 @@ body {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-left: 10px; / add some space between buttons */
-}
-
-.button:hover {
-  background-color: #2e6ab1;
-}
-
-.button-container {
-  display: flex;
-  justify-content: flex-end; /* align buttons to the right /
-  margin-top: 20px; / add some space between header and buttons /
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #418dff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-left: 10px; / add some space between buttons */
+  margin-left: 10px; /* add some space between buttons */
 }
 
 .button:hover {
@@ -91,7 +71,6 @@ header {
   background-color: var(--border-color);
   color: var(--text-color);
   padding: 10px 20px;
-  font-family: var(--font);
   z-index: 1;
 }
 
@@ -115,4 +94,26 @@ a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 600;
+}
+
+/* Define default font size and line height */
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Define font size and line height for mobile devices */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+/* Define font size and line height for desktop devices */
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+    line-height: 1.6;
+  }
 }
