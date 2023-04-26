@@ -14,27 +14,33 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <div style={{ textAlign: "center" }}>
-          <img
-            src="/0.png"
-            alt="Team Member 1"
-            style={{ width: "150px", height: "150px", borderRadius: "50%" }}
-          />
+          <a href="https://twitter.com/iamjosepepe">
+            <img
+              src="/0.png"
+              alt="Team Member 1"
+              style={{ width: "150px", height: "150px", borderRadius: "50%" }}
+            />
+          </a>
           <p style={{ color: "white"}}>Jose` Pepe (artist)</p>
         </div>
         <div style={{ textAlign: "center", marginLeft: "40px", marginRight: "40px" }}>
-          <img
-            src="/1.png"
-            alt="Team Member 2"
-            style={{ width: "150px", height: "150px", borderRadius: "50%" }}
-          />
+          <a href="https://twitter.com/NotPeperoniis">
+            <img
+              src="/1.png"
+              alt="Team Member 2"
+              style={{ width: "150px", height: "150px", borderRadius: "50%" }}
+            />
+          </a>
           <p style={{ color: "white"}}>Peperoni (manager)</p>
         </div>
         <div style={{ textAlign: "center" }}>
-          <img
-            src="/7.png"
-            alt="Team Member 3"
-            style={{ width: "150px", height: "150px", borderRadius: "50%" }}
-          />
+          <a href="https://twitter.com/theone1o2s">
+            <img
+              src="/7.png"
+              alt="Team Member 3"
+              style={{ width: "150px", height: "150px", borderRadius: "50%" }}
+            />
+          </a>
           <p style={{ color: "white"}}>Mr.Pepe (brains)</p>
         </div>
       </div>
@@ -55,7 +61,7 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <a href={url} target="_blank" rel="noopener noreferrer">
-          
+
         </a>
       </div>
     </>
