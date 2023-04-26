@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap%27);
 
 /* Change the values in here to match your branding */
 :root {
@@ -15,7 +15,7 @@
   --color-secondary: #418dff;
 
   /* Which font you want to use */
-  --font: "Luckiest Guy";
+  --font: "Permanent Marker", cursive;
 
   /* Color of the border around items */
   --border-color: rgba(119, 247, 147, 0.796);
