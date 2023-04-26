@@ -24,7 +24,7 @@ export default function ThirdwebGuideFooter() {
           <p style={{ color: "white"}}>Jose` Pepe (artist)</p>
         </div>
         <div style={{ textAlign: "center", marginLeft: "40px", marginRight: "40px" }}>
-          <a href="https://twitter.com/theone1o2">
+          <a href="https://twitter.com/NotPeperonii">
             <img
               src="/1.png"
               alt="Team Member 2"
@@ -34,7 +34,7 @@ export default function ThirdwebGuideFooter() {
           <p style={{ color: "white"}}>Peperoni (manager)</p>
         </div>
         <div style={{ textAlign: "center" }}>
-          <a href="https://twitter.com/NotPeperonii">
+          <a href="https://twitter.com/theone1o2">
             <img
               src="/7.png"
               alt="Team Member 3"
